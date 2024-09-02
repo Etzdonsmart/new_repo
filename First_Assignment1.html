@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>webpage html</title>
+
+    <style>
+      h4 :hover {
+        background-color: whitesmoke;
+      }
+      table {
+        text-align: center;
+        width: 100%;
+        border-spacing: 0px;
+      }
+      th {
+        border: 2px solid black;
+      }
+      td {
+        border: 1px solid black;
+      }
+      tr :hover {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        border: 1px solid green;
+        color: white;
+        background-color: green;
+        padding: 20px;
+      "
+    >
+      My First Webpage
+    </h1>
+
+    <a href="#Web" style="border: 1px solid white; padding: 10px"
+      >Webpage Content</a
+    >
+    <a href="#info" style="border: 1px solid white; padding: 10px"
+      >Information Table</a
+    >
+    <a href="#Form" style="border: 1px solid white; padding: 10px"
+      >Contact Form</a
+    >
+
+    <p>
+      <img
+        src="https://th.bing.com/th/id/OIP.78LI7NZhhdFaUneVcjz3-wHaEK?w=315&h=180&c=7&r=0&o=5&pid=1.7"
+        alt="night, space"
+        width="50%"
+      />
+    </p>
+    <p>
+      This is a sample paragrapph describing the content of the webpage. it
+      explains the purpose of the page and<br />provides some basic information
+      about what users can expect to find
+    </p>
+    <a href="https://www.techyjaunt.com/">Visit Techyjaunt</a>
+
+    <div>
+      <h2 id="Web">Webpage contents</h2>
+      <ul>
+        <li>introduction</li>
+        <li>Table of information</li>
+        <li>contact form</li>
+      </ul>
+    </div>
+
+    <div>
+      <h2 id="info">Information Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Quantity</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Pens</td>
+            <td>Blue ink pens</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>Note books</td>
+            <td>Spiral-bound Notebook</td>
+            <td>3</td>
+          </tr>
+          <tr>
+            <td>Markers</td>
+            <td>Permarnent markers</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h2 id="Form">Contact Form</h2>
+
+    <div>
+      <h3>Personal Information</h3>
+      <form>
+        <label> Surname:</label>
+        <input type="name" />
+        <label> First Name :</label>
+        <input type="name" />
+        <label> Middle Name :</label>
+        <input type="name" /><br /><br />
+
+        <label> Email :</label>
+        <input type="email" /><br /><br />
+
+        <label>Sex :</label>
+        <label>Male</label>
+        <input type="radio" value="Male" name="Gender" />
+        <label>Female</label>
+        <input type="radio" value="Female" name="Gender" /><br /><br />
+
+        <label>Date :</label>
+        <input type="date" /><br /><br />
+      </form>
+    </div>
+
+    <div>
+      <h2>Online Info</h2>
+      <form>
+        <label>Username :</label>
+        <input type="name" /><br /><br />
+
+        <label>Password :</label>
+        <input type="password" /><br /><br />
+
+        <label>Subscribe :</label>
+        <input type="checkbox" />
+        <label>yes, i want to subscribe</label><br /><br />
+
+        <label>Discription</label>
+        <textarea
+          name="comments"
+          rows="3"
+          cols="20"
+          placeholder="Enter your text here"
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
